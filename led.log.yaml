@@ -8,7 +8,7 @@ handlers:
   console:
     class: logging.StreamHandler
     level: DEBUG
-    formatter: simple
+    formatter: timer
     stream: ext://sys.stdout
 loggers:
   simpleExample:
